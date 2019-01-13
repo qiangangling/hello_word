@@ -1,0 +1,14 @@
+
+public class MainTest {
+ 
+
+	private final static int SIZE = 100000; //创建10个对象，可改变
+
+       public static void main(String[] args) throws InterruptedException{
+
+ 
+
+           System.out.println("mainThread end");//调用结束打印，死循环时不打印
+       }
+
+   }
